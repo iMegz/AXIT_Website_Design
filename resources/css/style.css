@@ -7,6 +7,7 @@ Colors
 /****  NAVBAR   ****/
 nav {
     background: #000;
+    height: 10vh;
 }
 .navbar-brand span{
 	color: rgb(255,139,56);
@@ -31,7 +32,7 @@ nav {
     background: rgb(255, 121, 25);
 }
 header{
-    height: 100vh;
+    height: 90vh;
     background-image: linear-gradient(rgba(0, 0, 0, 0.6),rgba(0, 0, 0, 0.6)),url(img/hero_image.jpg);
     background-size: cover;
 }
@@ -46,3 +47,18 @@ header hr {
     border-top: 2px solid #fff;
     width: 80px;
 }
+
+
+#socialMedia i{
+    font-size: 2.5em;
+    opacity: 0.9;
+}
+#socialMedia {
+	border-bottom: 1px solid #999;
+}
+.ion-social-facebook:hover {transition: color 0.2s;color:#3b5998;}
+.ion-social-twitter:hover {transition: color 0.2s;color:#00aced;}
+.ion-social-googleplus:hover {transition: color 0.2s;color:#dd4b39;}
+.ion-social-instagram:hover {transition: color 0.2s;color:#cb2027;}
+.ion-social-pinterest:hover {transition: color 0.2s;color:#517fa4;}
+.ion-social-rss:hover {transition: color 0.2s;color:#c16800;}
