@@ -1,13 +1,48 @@
+/*
+Colors 
+    main : rgb(255,139,56);
+    secondary : rgb(255,139,56);
+*/
+
 /****  NAVBAR   ****/
+nav {
+    background: #000;
+}
 .navbar-brand span{
 	color: rgb(255,139,56);
 }
 .nav-link {
 	color: #fff!important;
-    transition: all 0.2s
+    transition: color 0.2s
 }
 .nav-link:hover{
     color: rgb(255,139,56)!important;
 }
 
 /****  HEADER   ****/
+.header-form-btn{
+    background: rgb(255,139,56);
+    width: 100%;
+    border-top-left-radius: 0px;
+    border-top-right-radius: 0px;
+    transition: background 0.2s
+}
+.header-form-btn:hover{
+    background: rgb(255, 121, 25);
+}
+header{
+    height: 100vh;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.6),rgba(0, 0, 0, 0.6)),url(img/hero_image.jpg);
+    background-size: cover;
+}
+header span {
+    color: rgb(255,139,56);
+}
+.btn-download{
+    border: 1.9px solid;
+    transition: background 0.2s
+}
+header hr {
+    border-top: 2px solid #fff;
+    width: 80px;
+}
