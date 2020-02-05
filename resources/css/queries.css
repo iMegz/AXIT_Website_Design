@@ -1,0 +1,14 @@
+/* HEIGHT */
+@media screen and (max-height:470px){
+    header{height: auto;padding: 3em 0}
+    #freeTrial{margin-top: 4em;}
+}
+
+
+
+/* WIDTH */
+
+/* Medium Screens */
+@media screen and (max-width:992px){  
+    .btn-free-trail{display: inline-block!important;}
+}

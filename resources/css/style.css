@@ -4,10 +4,12 @@ Colors
     secondary : rgb(255,139,56);
 */
 
+/****  GENERAL   ****/
+::-webkit-scrollbar{width: 0px;}
+
 /****  NAVBAR   ****/
 nav {
     background: #000;
-    height: 10vh;
 }
 .navbar-brand span{
 	color: rgb(255,139,56);
@@ -21,7 +23,7 @@ nav {
 }
 
 /****  HEADER   ****/
-.header-form-btn{
+.form-btn{
     background: rgb(255,139,56);
     width: 100%;
     border-top-left-radius: 0px;
@@ -31,18 +33,27 @@ nav {
 .header-form-btn:hover{
     background: rgb(255, 121, 25);
 }
+.btn-download{
+    border: 1.9px solid;
+    transition: background 0.2s
+}
+.btn-free-trail{
+    border: 1.9px solid rgb(255,139,56);
+    color: rgb(255,139,56);
+    transition: background 0.2s;
+}
+.btn-free-trail:hover{
+    background: rgb(255,139,56);
+}
 header{
-    height: 90vh;
-    background-image: linear-gradient(rgba(0, 0, 0, 0.6),rgba(0, 0, 0, 0.6)),url(img/hero_image.jpg);
+    height: calc(100vh - 48px);
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7),rgba(0, 0, 0, 0.7)),url(img/hero_image.jpg);
     background-size: cover;
 }
 header span {
     color: rgb(255,139,56);
 }
-.btn-download{
-    border: 1.9px solid;
-    transition: background 0.2s
-}
+
 header hr {
     border-top: 2px solid #fff;
     width: 80px;
@@ -56,9 +67,12 @@ header hr {
 #socialMedia {
 	border-bottom: 1px solid #999;
 }
-.ion-social-facebook:hover {transition: color 0.2s;color:#3b5998;}
-.ion-social-twitter:hover {transition: color 0.2s;color:#00aced;}
-.ion-social-googleplus:hover {transition: color 0.2s;color:#dd4b39;}
-.ion-social-instagram:hover {transition: color 0.2s;color:#cb2027;}
-.ion-social-pinterest:hover {transition: color 0.2s;color:#517fa4;}
-.ion-social-rss:hover {transition: color 0.2s;color:#c16800;}
+#freeTrial{
+    margin-top: 20%;
+}
+.ion-social-facebook:hover {transition: color 0.2s;color:#3b5998;cursor: pointer;}
+.ion-social-twitter:hover {transition: color 0.2s;color:#00aced;cursor: pointer;}
+.ion-social-googleplus:hover {transition: color 0.2s;color:#dd4b39;cursor: pointer;}
+.ion-social-instagram:hover {transition: color 0.2s;color:#cb2027;cursor: pointer;}
+.ion-social-pinterest:hover {transition: color 0.2s;color:#517fa4;cursor: pointer;}
+.ion-social-rss:hover {transition: color 0.2s;color:#c16800;cursor: pointer;}
