@@ -1,0 +1,13 @@
+/****  NAVBAR   ****/
+.navbar-brand span{
+	color: rgb(255,139,56);
+}
+.nav-link {
+	color: #fff!important;
+    transition: all 0.2s
+}
+.nav-link:hover{
+    color: rgb(255,139,56)!important;
+}
+
+/****  HEADER   ****/
