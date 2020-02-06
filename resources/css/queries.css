@@ -1,7 +1,7 @@
 /* HEIGHT */
 @media only screen and (max-height:560px){
     header{height: auto;padding: 3em 0}
-    #freeTrial{margin-top: 4em;}
+    #freeTrial{margin-top: 0;}
 }
 
 

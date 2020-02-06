@@ -76,3 +76,19 @@ header hr {
 .ion-social-instagram:hover {transition: color 0.2s;color:#cb2027;cursor: pointer;}
 .ion-social-pinterest:hover {transition: color 0.2s;color:#517fa4;cursor: pointer;}
 .ion-social-rss:hover {transition: color 0.2s;color:#c16800;cursor: pointer;}
+
+
+/****  TABS   ****/
+#tabs .flex-column{
+    height: 300px;
+}
+#tabs .flex-column div{
+    height: 33.333%;
+/*    padding:45px 0;*/
+}
+#tabs .flex-column a{
+	height: 33.333%;
+}
+
+
+
