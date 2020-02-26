@@ -121,6 +121,27 @@ header hr {
 }
 
 
+
+/**** Featues ****/
+#features h2:after{
+    content: '';
+    display: block;
+    border-top: 2px solid var(--orangeMain);
+    width: 80px;
+    margin: 1em auto
+}
+#features i{
+    font-size: 150%;
+    text-align: center;
+    color: var(--orangeMain);
+    border: 2px solid var(--orangeMain);
+    border-radius: 50%;
+    display: inline-block;
+    width: 2.3em;
+    height: 2.3em;
+    padding-top: 0.3em;
+}
+
 /****  TABS   ****/
 /*
 .tabs{
