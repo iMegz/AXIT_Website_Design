@@ -115,7 +115,10 @@ header hr {
     height: 1.7em;
 }
 
-
+/**** Standard picture section ****/
+#standardPic {
+	background: #eee;
+}
 
 
 /****  TABS   ****/
