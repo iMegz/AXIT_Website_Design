@@ -123,7 +123,7 @@ header hr {
 
 
 /**** Featues ****/
-#features h2:after{
+#features h2:after,#pricing h2:after{
     content: '';
     display: block;
     border-top: 2px solid var(--orangeMain);
@@ -141,7 +141,25 @@ header hr {
     height: 2.3em;
     padding-top: 0.3em;
 }
+/**** Pricing ****/ 
+#pricing {
+	background-color: #eee;
+}
+.price-note {
+	background-color: var(--orangeMain);
+    border: 1px solid var(--orangeMain);
 
+}
+.price-note td{
+	padding: 0.25em 0!important;
+}
+.price {
+	font-size: 450%;
+    font-weight: 700;
+}
+.dollar {
+	font-size: 50%;
+}
 /****  TABS   ****/
 /*
 .tabs{
