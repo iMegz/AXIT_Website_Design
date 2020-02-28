@@ -188,10 +188,37 @@ header hr {
     width: 80px;
     margin: 1em auto 0 auto;
 }
-
-
-
-
+/**** Contact ****/
+#contact input,#contact textarea{
+	border-top: none;
+	border-left: none;
+	border-right: none;
+    resize: none;
+    border-radius: 0;
+    border-color: rgba(200, 200, 200, 1)!important;
+    color: rgba(200, 200, 200, 1);
+    font-size: 75%;
+    transition: border 0.5s;
+}
+#contact input:focus,#contact textarea:focus{
+    border-color: rgba(0, 0, 0, 0.7)!important;
+    
+    
+}
+.btn-contact{
+    background-color: var(--orangeMain);
+    color: #fff;
+    transition: background 0.3s;
+}
+.btn-contact:hover{
+    color: #fff;
+    background-color: var(--orangeSec);
+}
+input:focus::-webkit-input-placeholder,textarea:focus::-webkit-input-placeholder {
+    transition: color 0.5s;
+    color: rgba(0, 0, 0, 0.7);
+    font-weight: 600;
+}
 
 
 
