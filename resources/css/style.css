@@ -70,6 +70,7 @@ header{
     min-height: calc(100vh - 48px);
     background-image: linear-gradient(rgba(0, 0, 0, 0.7),rgba(0, 0, 0, 0.7)),url(img/hero_image.jpg);
     background-size: cover;
+    background-attachment: fixed;
 }
 header span {
     color:var(--orangeMain);
@@ -173,6 +174,30 @@ header hr {
     width: 4.5em;
     height: 4.5em;
 }
+
+/**** Design ****/
+#design {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7),rgba(0, 0, 0, 0.7)),url(img/bg2.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+}
+#design h2:after{
+    content: '';
+    display: block;
+    border-top: 2px solid #fff;
+    width: 80px;
+    margin: 1em auto 0 auto;
+}
+
+
+
+
+
+
+
+
+
+
 
 /****  TABS   ****/
 /*
